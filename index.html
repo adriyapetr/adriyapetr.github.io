@@ -1,147 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Discover the beauty of Lithuania, from its historical cities to natural wonders. Explore top destinations like Vilnius, Trakai Castle, and the Curonian Spit.">
+    <title>Discover Lithuania - Explore the Best Destinations</title>
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    
+    <!-- Link to JavaScript -->
+    <script src="app.js" defer></script>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <!-- the content of the header goes header -->
-         <h1>Discover Lithuania</h1>
-         <nav>
-            <ul id="nav-ul">
-                <li>
-                    <a href="" class="navbutton">Home</a>
-                </li>
-                <li>
-                    <a href="" class="navbutton">About us</a>
-                </li>
-                <li>
-                    <a href="" class="navbutton">Contact</a>
-                </li>
-            </ul>
-         </nav>
-    <header>
-    <main>
-        <article>
-            <header>
-                <!-- Article's header goes here -->
-                <h2>Ten Amusing Facts About Dogs</h2>
-                <h3>Read time: 5 minutes</h3>
-             </header>
-             <main>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi aperiam, amet, neque itaque deleniti quos possimus necessitatibus deserunt inventore dolore eveniet placeat, corporis repudiandae velit doloremque soluta incidunt quam dignissimos!</p>
-                <blockquote>
-                    <cite> "I love <a href="">Theo James</a>!" - Adrija, 2024</cite>
-                </blockquote>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet possimus commodi amet, dicta eius fugiat labore iste earum. Nemo, quisquam! Beatae veniam fuga natus dignissimos tempore magnam! Fugiat, laborum corporis.</p>
-             </main>
-             <footer>
-                <h2>Author: Adrija Petronyte</h2>
-                <img src="https://placebear.com/100/100" alt="A profile pic of a bear">
-                <h3>Last posted: 01-08-2024</h3>
-                <a href="">"https://www.brightnetwork.co.uk/" target="_blank">Author's profile</a>
-             </footer>
-        </article>
-        <aside>
-            <section>
-                <h4>Filter by Month</h4>
-                <nav>
-                    <ul>
-                        <li><a href="">Filter for January</a></li>
-                        <li><a href="">Filter for February</a></li>
-                        <li><a href="">Filter for March</a></li>
-                    </ul>
-                </nav>
-            </section>
-            <section>
-                <h4>Filter by Category</h4>
-                <nav>
-                    <ul>
-                        <li><a href="">Puppies</a></li>
-                        <li><a href="">Dogs</a></li>
-                        <li><a href="">Cats</a></li>
-                        <li><a href="">Hedgehogs</a></li>
-                    </ul>
-                </nav>
-
-               
-
-            </section>
-        </aside>
-        <!-- main content of the website can go here -->
-
-        <hr>
-        <h2>Sign up for our newsletter!</h2>
-
-        <form action=""> method="">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="" required>
-            <br>
-
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="" required>
-            <br>
-
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="">email
-            <br>
-
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
-            <br>
-            
-            <label for="favourite_animal">Favourite Animal:</label>
-            <input type="radio" name="favourite_animal" id="dog"> value="dog">
-            <label for="dog">Dog</label>
-            <input type="radio" name="favourite_animal" id="cat"> value="cat">
-            <label for="cat">Cat</label>
-            <br>
-
-            <label for="country">Country</label>
-            <select name="country" id="country">
-                <option value="lithuania">England</option>
-                <option value="poland">England</option>
-                <option value="latvia">England</option>
-            </select>
-            <br>
-
-            <label for="bio">Biography:</label>
-            <textarea name="bio" id="bio" cols="30" rows="10"</textarea>
-            <br>
-
-            <input type="checkbox" id="subscribe" name="subscribe"
-            <label for="subscribe">Subscribe to our newsletter!</label>
-            <br>
-
-            <input type="submit" value="Send"
-            
-        </form>
-        <hr>
-
-    </main>
-    <footer>
-       <h2>BrightBlogSite</h2> 
-       <section>
+        <h1 id="logo">Discover Lithuania</h1>
         <nav>
-            <ul id="footer-ul">
-                <div> 
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Careers</a></li>
-                </div>
-                <div>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
-                    <li><a href="">Cookie Policy</a></li>
-                </div>
+            <ul id="nav-ul">
+                <li><a href="#" class="navbutton">Home</a></li>
+                <li><a href="#" class="navbutton">Destinations</a></li>
+                <li><a href="#" class="navbutton">Travel Tips</a></li>
+                <li><a href="#" class="navbutton">Contact</a></li>
             </ul>
         </nav>
-       </section>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover Lithuania</h1>
+        <p>Your journey to one of Europe's most beautiful countries</p>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations">
+        <h2>Top Tourist Destinations</h2>
+        <div class="destinations-grid">
+            
+            <!-- Destination Card: Vilnius -->
+            <div class="destination-card">
+                <img src="vilnius.jpg" alt="Vilnius">
+                <h3>Vilnius</h3>
+                <p>The capital, famous for its old town, baroque architecture, and vibrant cultural life.</p>
+            </div>
+
+            <!-- Destination Card: Trakai Castle -->
+            <div class="destination-card">
+                <img src="trakai.jpg" alt="Trakai Castle">
+                <h3>Trakai Castle</h3>
+                <p>Historic island castle surrounded by lakes, a must-visit for history lovers.</p>
+            </div>
+
+            <!-- Destination Card: Kaunas -->
+            <div class="destination-card">
+                <img src="kaunas.jpg" alt="Kaunas">
+                <h3>Kaunas</h3>
+                <p>The second-largest city, a hub for art, history, and modern culture. European Capital of Culture 2022.</p>
+            </div>
+
+            <!-- Destination Card: Curonian Spit -->
+            <div class="destination-card">
+                <img src="kursiu-nerija.jpg" alt="Curonian Spit">
+                <h3>Curonian Spit</h3>
+                <p>A UNESCO World Heritage site, known for its unique sand dunes and scenic beauty.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>Discover Lithuania</h2>
+        <p>© 2024 Discover Lithuania | Created for your travel inspiration</p>
+        <ul id="footer-ul">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
     </footer>
+
 </body>
 </html>
