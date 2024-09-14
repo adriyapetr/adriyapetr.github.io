@@ -198,27 +198,28 @@ footer p {
 #contact form {
     max-width: 600px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column; /* Stack the inputs vertically */
-    align-items: flex-start; /* Align fields properly */
+    display: block; /* Ensure the form itself is a block */
 }
 
 #contact label {
     font-size: 18px;
     color: #2F4F4F;
     margin-bottom: 8px;
-    width: 100%; /* Ensure labels are full width */
+    display: block; /* Force each label onto its own line */
+    text-align: left; /* Align labels to the left */
+    margin-top: 10px;
 }
 
 #contact input, 
 #contact textarea {
-    width: 100%; /* Make input fields full width */
+    width: 100%; /* Full width for input and textarea */
     padding: 10px;
     margin-bottom: 20px;
     border: 2px solid #2F4F4F;
     border-radius: 5px;
     font-size: 16px;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    display: block; /* Ensure they appear one below the other */
 }
 
 #contact button {
@@ -230,6 +231,10 @@ footer p {
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add space above button */
+    display: block;
+    width: 150px;
+    margin: 0 auto; /* Center the button */
 }
 
 #contact button:hover {
